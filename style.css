@@ -1,0 +1,143 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: century gothic;
+}
+
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../20.jpg);
+	height:100vh;
+	width: auto;
+	background-size:cover;
+	background-position: center;
+}
+ul{
+	list-style-type: none;
+	float: right;
+	margin-top: 25px;
+}
+
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color: white;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition:  0.6s ease;
+}
+
+ul li a:hover{
+	background-color: white;
+	color: black;
+}
+ul li.active a{
+	background-color: white;
+	color: black;
+}
+.logo img{
+	float: left;
+	width: 100px;
+	height: auto;
+	margin-top:15px;
+}
+.main{
+	max-width: 1500px;
+	margin: auto;
+}
+
+.title{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+
+}
+.title h1{
+	color: white;
+	font-size: 40px;
+	font-family: italic;
+
+}
+
+ table,td{
+ 	
+	border: 3px solid lightgreen;
+  border-collapse: collapse;
+  width: 500px;
+  height: 100px;
+  margin:auto;
+ 
+  margin-top: 25px;
+  
+  
+
+}
+
+td{
+
+	padding: 5px;
+	text-align: center;
+}
+
+.services{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../41.jpg);
+	
+	background-size:cover;
+	background-position: center;
+	text-align: center;
+	
+	
+}
+
+.city {
+	
+	text-align: center;
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../43.jpg);
+
+	background-size: cover;
+	background-position: center;
+}
+
+
+
+.box{
+	margin-top: 25px;
+}
+form{
+	margin-top: 75px;
+
+}
+
+.form-control{
+	width: 600px;
+	background: transparent;
+	border:none;
+	outline:none;
+	border-bottom: 1px solid gray;
+	color:white;
+	font-size: 18px;
+	margin-bottom: 16px;
+}
+
+input{
+	height: 45px;
+}
+form .submit{
+	background-color: tomato;
+	border-color: transparent;
+	color:white;
+	font-size: 20px;
+	letter-spacing: 2px;
+	height:50px;
+	margin-top: 20px;
+	transition: 0.4s ease;
+
+}
+
+form.submit:hower{
+	background-color: #f44336;
+	cursor: pointer;
+}
